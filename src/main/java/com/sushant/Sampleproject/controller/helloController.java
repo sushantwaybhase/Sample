@@ -11,5 +11,9 @@ public class helloController {
         System.out.println("Hello world");
         return "feature changes for PR";
     }
+    public String kick(){
+        return "Stash contact";
+    }
+
 
 }
