@@ -1,5 +1,6 @@
 package com.sushant.Sampleproject.controller;
 
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +14,9 @@ public class helloController {
     }
     public String kick(){
         return "Stash contact";
+    }
+    public String Stash(){
+        return "this is stash";
     }
 
 
