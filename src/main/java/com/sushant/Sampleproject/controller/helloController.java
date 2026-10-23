@@ -9,7 +9,7 @@ public class helloController {
     @GetMapping
     public String hello(){
         System.out.println("Hello world");
-        return "User details found";
+        return "feature changes for PR";
     }
 
 }
